@@ -1,0 +1,21 @@
+alias \
+\
+f="source ~/scripts/fzfinder.sh" \
+pwsh="/mnt/c/'Program Files'/PowerShell/7/pwsh.exe -noe -c '& {cls && neofetch && cd C:\Users\user}'" \
+start="clear && cd ~ " \
+v="nvim" \
+ls="eza --color=always --icons=always" \
+ll="ls -alF" \
+la="ls -a" \
+tree="ls -Tasname -L2" \
+wez="nvim ~/winuser/.wezterm.lua" \
+open="bash ~/scripts/wsl-open" \
+obsd="cd ~/winuser/OneDrive/Documents/'Obsidian Vault' && v ." \
+fcat="cd ~/FastCat && bash fastcat.sh --shell && start" \
+zrc="v .zshrc" \
+cd="z" \
+als="v ~/.config/shell/alias" \
+ffetch="fastfetch" \
+note="sticky-note" \
+d="ddgr --reverse -n 5 --url-handler ~/scripts/wsl-open" \
+lg="lazygit" \
