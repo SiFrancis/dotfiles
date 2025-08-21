@@ -1,0 +1,11 @@
+theme = "nightfox"
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
+
+[editor]
+line-number = "relative"
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
