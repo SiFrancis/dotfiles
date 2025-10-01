@@ -1,4 +1,4 @@
-theme = "base16_terminal"
+theme = "oxocarbon"
 
 [keys.normal]
 esc = ["collapse_selection", "keep_primary_selection"]
@@ -24,7 +24,7 @@ insert = "bar"
 
 [editor.indent-guides]
 render = true
-character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
+character = "▏" # Some characters that work well: "▏", "┆", "┊", "⸽"
 skip-levels = 0
 
 [editor.inline-diagnostics]

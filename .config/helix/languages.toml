@@ -1,0 +1,6 @@
+[[language]]
+name = "python"
+language-servers = [ "basedpyright", "ruff" ]
+
+[language-server.basedpyright.config.python.analysis]
+typeCheckingMode = "basic"

@@ -8,16 +8,16 @@ return ---@type LazySpec
   keys = {
     -- 👇 in this section, choose your own keymappings!
     {
-      '<leader>fy',
+      '<leader>y',
       mode = { 'n', 'v' },
       '<cmd>Yazi<cr>',
       desc = 'Open yazi at the current file',
     },
     {
       -- Open in the current working directory
-      '<leader>fY',
+      '<leader>Y',
       '<cmd>Yazi cwd<cr>',
-      desc = "Open the file manager in nvim's working directory",
+      desc = "Open yazi in nvim's working directory",
     },
     -- {
     --   "<c-up>",

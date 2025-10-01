@@ -8,5 +8,5 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export PATH="$XDG_CONFIG_HOME/scripts:$PATH"
 export BROWSER="wsl-open:bash"
 # export DISPLAY=:0
-export EDITOR="hx"
-export VISUAL="hx"
+export EDITOR="nvim"
+export VISUAL="nvim"
